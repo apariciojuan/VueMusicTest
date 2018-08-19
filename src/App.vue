@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='https://apariciojuan.github.io/VueMusicTest/assets/logo.png')
+    img(src='https://apariciojuan.github.io/VueMusicTest/dist/logo.png')
     h1 MusicJuan
     select(v-model="selectedCountry")
       option(v-for="country in countries" :value="country.value") {{ country.name }}
